@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 150px;
+    display: none;
+}
+
+* {
+    font-family: cursive
+}

@@ -1,0 +1,23 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+button {
+    margin-top: 42vh;
+    width: 166px;
+    height: 66px;
+    border-radius: 15px;
+    border: 1px solid yellow;
+    font-size: 25px;
+    background-color: yellow;
+    display: block;
+}
+
+p {
+    font-size: 200px;
+    display: none;
+}

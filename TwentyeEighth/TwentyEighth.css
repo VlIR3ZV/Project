@@ -1,0 +1,36 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.active {
+    background-color: lightgreen;
+}
+
+p {
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 0px 5px 0px 0px;
+    color: white;
+    background-color: skyblue;
+    border: inherit;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 12px;
+}

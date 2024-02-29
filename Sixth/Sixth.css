@@ -1,0 +1,60 @@
+    .head {
+        background-color: rgb(34, 255, 181);
+        text-align: left;
+        padding-left: 12px;
+        padding-top: 5px;
+        padding-bottom: 24px;
+    }
+    
+    .topic {
+        border-bottom: 1px solid black;
+    }
+    
+    img {
+        width: 54%;
+        height: 0%;
+    }
+    
+    .sidebar {
+        background-color: hotpink;
+        padding-bottom: 7px;
+        padding-left: 20px;
+        padding-right: 29px;
+        padding-top: 17px;
+        margin: 6px 1px 0px 0px;
+    }
+    
+    footer {
+        background-color: skyblue;
+        padding: 5px 17px 1px 15px;
+        margin-top: 8px;
+    }
+    
+    @media screen and (min-width: 500px) {
+        .second {
+            margin-left: 86px;
+        }
+        .topic {
+            width: 73px;
+            border-width: 2px;
+            float: left;
+            clear: both;
+        }
+    }
+    
+    @media screen and (min-width: 800px) {
+        .sidebar {
+            margin-top: -413px;
+            float: right;
+            width: 131px;
+            background-color: hotpink;
+            width: 18%;
+            height: 0%;
+        }
+        .forth {
+            margin-top: 4%;
+        }
+        .topic {
+            width: 26%;
+        }
+    }

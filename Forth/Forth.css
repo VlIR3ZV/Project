@@ -1,0 +1,21 @@
+.row {
+    text-align: left;
+    text-decoration: none;
+    word-spacing: 25px;
+}
+
+span {
+    background-color: yellow;
+}
+
+* {
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}

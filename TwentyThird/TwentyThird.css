@@ -1,0 +1,77 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: skyblue;
+}
+
+#maindiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+#begindiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pointdiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+#imagebutton {
+    border-radius: 100%;
+    border: 0.1px solid black;
+}
+
+#starttocompare,
+#resetbutton,
+#changeplayerone,
+#changeplayertwo {
+    width: 300px;
+    height: 99px;
+    font-size: 30px;
+    border-radius: 19px;
+    background-color: cornsilk;
+}
+
+#playeronepoint,
+#playertwopoint {
+    margin: 0px;
+    font-size: 200px;
+    color: #11111b;
+}
+
+#chooseplayerone,
+#chooseplayertwo {
+    font-size: 55px;
+    margin: 96px 0px 0px 0px;
+    color: #11111b;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: inline;
+    border-radius: 100%;
+}
+
+#vs {
+    font-size: 76px;
+    margin: 10px 0px 0px 0px;
+}
+
+#hidep1,
+#hidep2 {
+    display: none;
+}
+
+button:hover {
+    box-shadow: -1px -6px 20px 2px;
+    margin-top: 15px;
+}

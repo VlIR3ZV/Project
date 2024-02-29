@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../TwentyThird/TwentyThird.css">
+    <title>MY TWENTY THIRD PROJECT</title>
+</head>
+
+<body>
+    <div id="maindiv">
+        <button onclick="stoneclick()" id="imagebutton"><img src="../Picture/Stone (1).jpg" alt=""></button>
+        <button onclick="paperclick()" id="imagebutton"><img src="../Picture/Paper (1).jpg" alt=""></button>
+        <button onclick="scissorclick()" id="imagebutton"><img src="../Picture/Scissor (1).jpg" alt=""></button>
+        <p id="vs">VS</p>
+        <button onclick="stoneclickopponent()" id="imagebutton"><img src="../Picture/Stone (1).jpg" alt=""></button>
+        <button onclick="paparclickpponent()" id="imagebutton"><img src="../Picture/Paper (1).jpg" alt=""></button>
+        <button onclick="scissorclickpponent()" id="imagebutton"><img src="../Picture/Scissor (1).jpg" alt=""></button>
+    </div>
+    <div id="pointdiv">
+        <p id="playeronepoint"></p>
+        <p id="chooseplayerone"></p>
+        <p id="chooseplayertwo"></p>
+        <p id="playertwopoint"></p>
+    </div><br>
+    <div id="begindiv">
+        <button id="starttocompare" onclick="startcomparefunction()">Begin</button>
+        <button id="changeplayerone" onclick="changeplayeronefunction()">Change Player One</button>
+        <button id="changeplayertwo"onclick="changeplayertwofunction()">Change Player Two</button>
+        <button id="resetbutton" onclick="resetfunction()">Reset</button>
+        <p id="hidep1"></p>
+        <p></p>
+        <p id="hidep2"></p>
+    </div>
+</body>
+<script src="../TwentyThird/TwentyThird.js"></script>
+
+</html>

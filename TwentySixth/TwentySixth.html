@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TwentySixth.css">
+    <title>MY TWENTYSIXTH PROJECT</title>
+</head>
+
+<body>
+    <div id="firstMethod">
+        <input type="number" id="kg" value="" placeholder="Exmaple : 68"> : KG
+        <input type="number" id="cm" value="" placeholder="Exmaple : 165"> : CM
+        <input type="number" id="age" value="" placeholder="Example : 18"> : Age
+        <select name="select" id="gender" value="">
+            <option value="5">Man</option>
+            <option value="-161">Woman</option>
+        </select> : Gender
+        <select name="select" id="active" value="">
+            <option value="1.2">Light</option>
+            <option value="1.375">Moderate</option>
+            <option value="1.55">Active</option>
+            <option value="1.725">Very Active</option>
+            <option value="1.9">Extra Active</option>
+        </select> : Activity<br><br>
+        <p id="bmi"></p><br>
+        <p id="calorie"></p>
+    </div>
+    <br><br><br>
+    <center>
+        <div id="rangediv">
+            <input type="range" min="20" max="120" value="80" id="kginput">
+            <p id="kgp"></p><br>
+            <input type="range" min="110" max="210" value="167" id="cminput">
+            <p id="cmp"></p><br>
+            <input type="range" min="9" max="99" value="18" id="ageinput">
+            <p id="agep"></p><br>
+            <div id="genderdiv">
+                <input type="radio" name="gender" value="man" id="gendermaninput" checked>
+                <input type="radio" name="gender" value="woman" id="genderwomaninput">
+                <p id="genderp"></p><br>
+            </div>
+            Activity : <select name="select" id="activitylevel" value="1.2">
+                <option value="1.2">Light</option>
+                <option value="1.375">Moderate</option>
+                <option value="1.55">Active</option>
+                <option value="1.725">Very Active</option>
+                <option value="1.9">Extra Active</option>
+            </select><br>
+            <p id="bmiresultnum"></p><br>
+            <p id="bmiresultword"></p><br>
+            <p id="calorieresultnum"></p>
+    </center>
+    </div>
+
+</body>
+<script src="TwentySixth.js"></script>
+
+</html>

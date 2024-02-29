@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fifth.css">
+    <title>MY FIFTH PROJECT</title>
+</head>
+
+<body>
+    <div id="firstdiv">
+        <br>
+        <p> <b>Login</b> Your Account </p>
+        <form action="#"><br>
+            <input value="" id="emaillogin" type="email" placeholder="Your Email" autocomplete="on"><br><br>
+            <input id="passwordlogin" type="password" placeholder="Password" autocomplete="on"><br><br>
+            <button onclick="logintest(event)">
+                Login
+            </button>
+        </form><br>
+        <a href="#" onclick="forget()">Forget password</a><br><br>
+        <a href="#" class="k" onclick="create()">Create Account</a>
+    </div>
+    <div id="seconddiv">
+        <br>
+        <p> <b>Forget</b> Your Password </p>
+        <form action="#"><br>
+            <input type="email" id="forgetemail" placeholder="Your Email" autocomplete="on" value=""><br><br>
+            <input type="text" id="forgetpassword" value="" placeholder="Username"
+                autocomplete="on"><br><br>
+            <button onclick="forgettest(event)">
+                Forget Password
+            </button>
+        </form><br>
+        <a href="#" onclick="account()">I Have An Account</a><br><br>
+        <a href="#" class="k" onclick="create()">Create Account</a>
+    </div>
+    <div id="thirddiv">
+        <br>
+        <p> <b>Create</b> Your Account </p>
+        <form action="#"><br>
+            <input type="text" id="createuser" placeholder="Username" autocomplete="on" value=""><br><br>
+            <input type="email" id="createemail" placeholder="Your Email" autocomplete="on" value=""><br><br>
+            <input type="password" id="createpassword" placeholder="Password" autocomplete="on" value=""><br><br>
+            <button onclick="security(event)">
+                Create Acoount
+            </button>
+        </form><br>
+        <a href="#" class="k" onclick="account()">I Have An Account</a><br><br>
+        <a href="#" onclick="forget()">Forget password</a>
+    </div>
+</body>
+<script src="Fifth.js"></script>
+
+</html>

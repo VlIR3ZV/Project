@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: darksalmon;
+}
+
+p {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: floralwhite;
+    color: black;
+    margin: 20% 0px 0% 0px;
+    padding: 17px 0px 11px 46px;
+    width: 235px;
+    height: 67px;
+    font-size: 40px;
+    font-family: cursive;
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: green;
+    font-size: xxx-large;
+    font-family: monospace;
+}
+
+#randomNameInP {
+    display: inline-block;
+    margin: 45vh 0px 0px 0px;
+}
+
+#randomAlphabetP {
+    display: inline-block;
+    margin: 45vh 0px 0px -4px;
+}

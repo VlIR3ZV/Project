@@ -1,0 +1,28 @@
+body {
+    background: #fff5f5;
+    margin-top: 26px;
+}
+
+img {
+    margin-top: 10px;
+    display: inline-block;
+    position: fixed;
+}
+
+.pic1 {
+    margin: 0px 0px 0px -1px;
+    height: 420px;
+}
+
+.pic2 {
+    margin: 0px 0px 0px 758px;
+    height: 420px;
+}
+
+.pic3 {
+    margin: 0px 0px 0px 1096px;
+    height: 420px;
+}
+p{
+font-size: 0;
+}

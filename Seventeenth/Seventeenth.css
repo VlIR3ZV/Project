@@ -1,0 +1,79 @@
+body {
+    background-color: #000000;
+    margin-top: 10%;
+}
+
+.formstyle {
+    width: 300px;
+    height: 330px;
+    margin: 20px auto;
+    border: 1.5px solid #82868f;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: #23254e;
+}
+
+.act:hover {
+    background-color: #2d3240;
+}
+
+.btn:hover {
+    background-color: #4a5264;
+}
+
+.equal:hover {
+    background-color: #0072E1;
+}
+
+.textview:focus {
+    background-color: #2855cb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.act {
+    background-color: #4a5264;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #2d3240;
+    color: white;
+}
+
+.equal {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #4cc2ff;
+    color: #050d11;
+}
+
+.textview {
+    width: 223px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: #0081ff;
+    color: #ffffff;
+}
+
+input {
+    border-radius: 10px;
+}

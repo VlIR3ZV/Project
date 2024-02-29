@@ -1,0 +1,76 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: peachpuff;
+}
+
+.maindiv {
+    text-align: center;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 30%;
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    background-color: white;
+    margin: 10px;
+}
+
+#typeremove,
+#typeenter,
+#typespace,
+#letterremove {
+    width: 150px;
+    border-radius: 40px;
+}
+
+p {
+    width: 700px;
+    height: 190px;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 32px;
+    padding: 8px 17px 18px 16px;
+    background-color: gold;
+    display: table;
+    border: 1px solid black;
+}
+
+.pdiv {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    margin: -6px 0px 0px 628px;
+    position: fixed;
+    color: gray;
+}
+
+nav {
+    color: black;
+    font-size: 49px;
+}
+
+.hit {
+    -webkit-animation: hit 0.3 cubic-bezier(0.390, 0.575, 0.565, 1.000)both;
+    animation: hit 0.3 cubic-bezier(0.390, 0.575, 0.565, 1.000)both;
+}
+
+@keyframes hit {
+    0% {
+        -webkit-transform: scale(1.2);
+        transform: scale(2.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}

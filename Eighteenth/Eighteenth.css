@@ -1,0 +1,63 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: #1989E7;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+input {
+    background-color: antiquewhite;
+    border: 0.5px solid black;
+    border-radius: 7px;
+}
+
+#quizp {
+    display: none;
+    letter-spacing: 7px;
+}
+
+#textdiv {
+    background-color: #8A9EEC;
+    width: 176px;
+    height: 19px;
+    padding: 9px 5px 12px 7px;
+    border: 0.5px solid black;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    display: table;
+}
+
+#underquizp {
+    letter-spacing: 7px;
+}
+
+#bfrbtn {
+    display: inline-block;
+}
+
+#maindiv {
+    display: none
+}
+
+input {
+    margin-left: -3px;
+    margin-top: -117px;
+    width: 126px;
+    height: 40px;
+    color: white;
+    background-color: #1b2446;
+}
+
+button {
+    background-color: #27325c;
+    color: white;
+    border: 1px solid black;
+    height: 33px;
+    width: 58px;
+    border-radius: 7px;
+    margin: 0px 8px 0px 0px;
+}

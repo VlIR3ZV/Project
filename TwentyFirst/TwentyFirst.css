@@ -1,0 +1,127 @@
+* {
+    font: caption;
+    font-family: emoji;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(248, 203, 0, 0.884);
+    margin-top: 326px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: orangered;
+    padding: 8px 8px 8px 12px;
+}
+
+nav {
+    display: none;
+}
+
+div {
+    display: inline;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+i {
+    cursor: pointer;
+}
+
+p {
+    display: inline;
+}
+
+.btn {
+    color: whitesmoke;
+    border-radius: 4px;
+    background-color: black;
+    border: 0px solid black;
+    margin: 0px 5px 0px 0px;
+    display: inline;
+}
+
+.ibtn {
+    background-color: inherit;
+    border: none;
+}
+
+#btn {
+    color: whitesmoke;
+    border-radius: 4px;
+    background-color: black;
+    border: 0px solid black;
+    margin: 0px 5px 0px 0px;
+    display: inline;
+}
+
+#mutebtn {
+    background-color: unset;
+    border: 0px solid black;
+}
+
+
+#input {
+    position: fixed;
+    margin: 0.2px 0px 0px 0px;
+    border: 0px solid black;
+    appearance: inherit;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-rendering: auto;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    cursor: pointer;
+    height: 18px;
+    display: none;
+}
+
+#time {
+    cursor: pointer;
+    height: 9px;
+    margin: 0px 0px 0px 4px;
+}
+
+#playback {
+    background-color: unset;
+    border: unset;
+}
+
+
+#soundp {
+    margin: 0px 0px 0px 1.6px;
+}
+
+#playlistinnav {
+    margin: 0px 5px 0px 3px;
+}
+
+#playlistinput {
+    display: none;
+}
+
+#addbtn {
+    display: none;
+}
+
+#playlistp {
+    display: none;
+}
+
+#removebtn {
+    display: none;
+}
+
+.btn:hover {
+    transition: all 0.35s ease;
+    color: black;
+    background-color: whitesmoke;
+    cursor: pointer;
+}

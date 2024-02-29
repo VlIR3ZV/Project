@@ -1,0 +1,104 @@
+#maincontainer>div {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 0px 0px 55.5px;
+    background-color: #1dce23;
+    color: white;
+    border: 0px;
+    border-radius: 6px;
+    width: 60px;
+    height: 25px;
+}
+
+p {
+    display: inline-block;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+#itemp {
+    padding: 0px 200px 0px 0px;
+}
+
+#pricep {
+    padding: 0px 90px 0px 0px;
+}
+
+#quantityp {
+    padding: 0px 90px 0px 0px;
+}
+
+b {
+    margin: 0px 68px 20px 437px;
+    display: block;
+}
+
+#useless {
+    border-top: 1px solid black;
+    padding: 0px 225px 0px 220px;
+    display: inline;
+}
+
+#purchasediv>p {
+    display: inline;
+    border-bottom: 1px solid black;
+}
+
+#purchasebtn {
+    margin: 0px 0px 0px 0px;
+    width: 130px;
+    height: 40px;
+    color: snow;
+    background-color: #0090ff;
+}
+
+.sizeofitempicture {
+    width: 50px;
+    height: 50px;
+    padding: 0px 15px 0px 0px;
+    margin: 25px 15px -18px 0px;
+    display: inline-block;
+
+}
+
+.item {
+    display: block;
+    padding: 0px 73px 0px 100px;
+    display: inline-block;
+
+}
+
+.input {
+    width: 40px;
+    height: 18px;
+    border-radius: 6px;
+    background-color: rgb(209, 207, 207);
+    border: 3px solid lightblue;
+    margin-right: 6px;
+}
+
+.removebutton {
+    background-color: crimson;
+    color: snow;
+    border-radius: 6px;
+    height: 25px;
+    width: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+#purchasebtn:hover {
+    color: black;
+}
+
+.btn:hover {
+    color: black;
+}

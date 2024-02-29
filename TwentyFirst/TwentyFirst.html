@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TwentyFirst.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>MY TWENTY FIRST PROJECT</title>
+</head>
+
+<body>
+    <main>
+        <center>
+            <nav>
+                <button id="btn" onclick="clicktoplay()">Play</button>
+                <button id="btn" onclick="clicktopause()" style="display: none;">Puase</button>
+                <div>
+                    <p>0 /</p>
+                    <p>0</p>
+                    <input onchange="seek()" value="0" max="100" type="range" id="time">
+                </div>
+                <button onclick="preaudio()" class="ibtn"><i class="fas fa-angle-double-left"></i></button>
+                <p>1/1</p>
+                <button onclick="nextaudio()" class="ibtn"><i class="fas fa-angle-double-right"></i></button>
+                <button id="playback" onclick="minused()"><i class="fas fa-minus-circle"></i></button>
+                <p>1</p>
+                <button id="playback" onclick="plused()"><i class="fas fa-plus-circle"></i></button>
+                <p id="soundp">100</p>
+                <div>
+                    <button onclick="muteunmutebtn()" id="mutebtn"><i class="fas fa-volume-up"></i></button>
+                    <input id="input" onchange="changevolume()" type="range" value="100" max="100">
+                </div>
+                <audio ontimeupdate="changetime(),myplaylist()" id="audio" onvolumechange="changevolumed()"
+                    onseeking="red()" onratechange="ratechanging()" src=""></audio>
+                <div>
+                    <i class="fas fa-bars" id="playlistinnav"></i>
+                    <input type="text" id="playlistinput" value="" placeholder="Enter The Address">
+                    <button id="addbtn" class="btn" onclick="addpl()">Add</button>
+                    <button id="removebtn" class="btn" onclick="removebtnact()">Remove</button>
+                    <p id="playlistp"></p>
+                </div>
+            </nav>
+            <footer>
+                <input type="text" value="" placeholder="Enter The Address" min="10">
+                <button id="btn" onclick="showmain()">Add Music</button>
+            </footer>
+        </center>
+    </main>
+</body>
+<script src="TwentyFirst.js"></script>
+
+</html>

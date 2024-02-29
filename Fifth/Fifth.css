@@ -1,0 +1,76 @@
+body {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid cornflowerblue;
+    width: 267px;
+    height: 35px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    background-color: rgb(96, 152, 255);
+    width: 242px;
+    height: 37px;
+    margin-top: 7px;
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.k {
+    color: cornflowerblue;
+}
+
+a:hover {
+    color: red;
+}
+
+#firstdiv {
+    background-color: white;
+    border-radius: 10px;
+    width: 324px;
+    height: 363px;
+    text-align: center;
+    margin: 19vh 0vw 0vh 0vw;
+    /* display:none; */
+}
+
+#seconddiv {
+    background-color: white;
+    border-radius: 10px;
+    width: 324px;
+    height: 363px;
+    text-align: center;
+    margin: 19vh 0vw 0vh 0vw;
+    display: none;
+}
+
+#thirddiv {
+    background-color: white;
+    border-radius: 10px;
+    width: 324px;
+    height: 414px;
+    text-align: center;
+    margin: 19vh 0vw 0vh 0vw;
+    display: none;
+}
+
+input:focus {
+    border-bottom: 3px solid red;
+    outline: none;
+}
+
+b {
+    color: cornflowerblue;
+}

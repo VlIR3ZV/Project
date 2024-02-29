@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="TwentySecond.css">
+  <title>MY TWENTY SECOND PROJECT</title>
+</head>
+
+<body>
+  <p>s</p>
+  <img src="../Picture/scorpionSmallOne.png" class="pic1" data-zoom-image="../Picture/scorpionLargeOne.png">
+  <img src="../Picture/scorpionSmallTwo.png" class="pic2" data-zoom-image="../Picture/scorpionLargeTwo.png">
+  <img src="../Picture/scorpionSmallThree.png" class="pic3" data-zoom-image="../Picture/scorpionLargeThree.png">
+  <script src="../jquery/jquery.js"></script>
+  <script src="../jquery/jquery.elevatezoom.js"></script>
+  <script>
+    $('.pic1').elevateZoom({
+      scrollZoom: true
+    })
+
+    $('.pic2').elevateZoom({
+      zoomType: "inner",
+      cursor: 'crosshair',
+      scrollZoom: true
+    })
+
+    $('.pic3').elevateZoom({
+      zoomType: "lens",
+      lensShape: "round",
+      scrollZoom: true
+    })
+  </script>
+</body>
+
+</html>
